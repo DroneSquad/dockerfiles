@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM yvess/docker-alpine-postgres
 MAINTAINER Johannes Schickling "schickling.j@gmail.com"
 
 ADD install.sh install.sh
